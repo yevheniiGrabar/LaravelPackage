@@ -1,0 +1,23 @@
+{
+    "name": "yevheniigrabar/user-registration-notifier",
+    "description": "A Composer package for sending welcome emails upon user registration in Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yevheniigrabar\\UserRegistrationNotifier\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yevhenii",
+            "email": "yevheniigrabar@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/support": "^10.0",
+        "illuminate/mail": "^8.0 || ^9.0 || ^10.0",
+        "laravel/framework": "^10.0"
+    }
+}
